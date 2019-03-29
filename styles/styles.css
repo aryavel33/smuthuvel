@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700');
+
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+header, #end{
+  background-image: linear-gradient(to right, #46A59D, #35C999);
+  width: 100%;
+}
+header ul{
+  padding: 1em 1em 0em 1em;
+  text-align: right;
+}
+
+header li a:link{
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+header li a:hover{
+  font-weight: 300;
+  text-decoration: none;
+  padding:  0.5em;
+  font-size: 1.2em;
+  text-align: center;
+  border-top: 5px solid #FFF;
+  color: #FFF;
+
+}
+header li a:visited{
+  font-weight: 300;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+header li {
+  display: inline;
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+.home{
+  background-color:#323D49;
+  color: #fff;
+}
+.hline{
+  width: 75px;
+  height: 10px;
+  background-color: #46A59D;
+}
+#home {
+  margin-left: 30%;
+  padding-bottom: 2em;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.home-padding{
+  padding: 15em 0;
+
+}
+div.div-content{
+  font-family: inherit;
+  padding: 0.5em;
+  width: 80%;
+  margin: auto;
+}
+
+.work, .p-content{
+  position: relative;
+  top: -10%;
+}
+
+.learn{
+  background-color:#323D49;
+  padding: 3em;
+  color: #fff;
+
+}
+
+.page{
+  padding: 2em;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.2em 0.2em 1em rgba(0,0,0,0.2);
+
+}
+
+div.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.tile{
+  box-shadow: 0.2em 0.2em 1em rgba(0,0,0,0.2);
+}
+.tile:hover{
+  box-shadow: 0.2em 0.2em 1em rgba(0,0,0,0.4);
+}
+.tile img{
+  width: 100%;
+  height: auto;
+}
+.block-content{
+  background-color:#323D49;
+  padding: 1em 1em 0.5em 1em;
+}
+.block-content a:link{
+  color: #fff;
+  text-decoration: none;
+}
+.block-content a:hover{
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.block-content a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.block-content h4{
+  margin:0;
+  padding: 0;
+}
+.divider{
+  margin: auto;
+  width: 100%;
+  height: 2px;
+  background-color: #323D49;
+  opacity: 0.5;
+}
+
+.row{
+  padding: 2em;
+}
+.p-content a:link{
+  color: #46A59D;
+  text-decoration: none;
+  border-bottom: 2px solid #323D49;
+}
+.p-content a:hover{
+  opacity: 0.5;
+  text-decoration: none;
+}
+.p-content a:visited{
+  color: #46A59D;
+  text-decoration: none;
+  border-bottom: 2px solid #323D49;
+}
+.emp{
+  background-color: #323D49;
+  color: #fff;
+}
+
+.doublequote{
+  font-size: 4em;
+}
+
+.quote{
+  padding: 1em;
+  border-left: 5px solid #46A59D;
+  font-size: 1.2em;
+
+}
+.highlight{
+  background-color: rgba(70, 165, 157, 0.2);
+
+}
+
+#end li {
+  display: inline;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+}
+#end li:hover {
+  display: inline;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  opacity: 0.5;
+}
+#end ul{
+  padding:0;
+  margin: 0;
+}
+#end{
+  text-align: center;
+  padding: 2em;
+  margin:0;
+  color: #fff;
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header ul {
+    display: none;
+  }
+  .work{
+    position: relative;
+    top: 0;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  header ul {
+    display: none;
+  }
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  header ul {
+    display: none;
+  }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  header ul {
+    display: none;
+  }
+
+
+}

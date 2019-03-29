@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700');
+
+html, body{
+    color: #404040;
+  font-family: Georgia, serif;
+  padding: 1.2em;
+}
+#work h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2em;
+}
+header{
+    text-align: center;
+    font-weight: 500;
+}
+#svgLogo{
+	height: 8em;
+	width: auto;
+	color: #404040;
+	opacity: 0.7;
+	stroke: 2em;
+}
+#titleFont{
+	font-family: 'Cinzel Decorative', cursive;
+	color: #404040;
+	font-size: 1.5em;
+}
+.nameFont{
+	font-family: Georgia, serif;
+	color: #404040;
+	font-size: 6em;
+}
+.headingFont{
+	font-family: Georgia, serif;
+	color: #404040;
+	font-size: 3em;
+}
+#work
+{
+  position: relative;
+  top:2em;
+  background-color: #fff;
+  padding: 1em;
+
+}
+
+.vl {
+    border-left: 1px solid #404040;
+    height: 640px;
+}
+p{
+	color: #404040;
+	font-family: Georgia, serif;
+}
+ nav ul{
+  text-align: center;
+  
+}
+ nav ul li{
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+}
+ nav li a:link{
+  color: #404040;
+  opacity: 0.7;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4em;
+
+}
+ nav li a:hover{
+  opacity: 1;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4em;
+
+}
+ nav li a:visited{
+  color: #333333;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.div-center
+{
+	margin: auto;
+	width: 80%;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+		padding: 1em;
+}
+.vl {
+    border-left: 1px solid #ddd;
+    height: 640px;
+}
+
+.tile1 img{
+    height: 400px;   
+}
+#cap{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5em;
+    font-weight: 700;  
+}
+
+.tile1 a, .tile1 a:visited {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size:2em;
+ text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+   text-decoration: none;
+    padding: 0.5em;
+    background: linear-gradient(to right bottom, transparent, #404040);
+  background-size: 1000px 100%;
+  background-clip: text ;
+  -webkit-background-clip: text ;
+}
+
+.tile1 a:hover {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size:2em;
+    text-transform: uppercase;
+  
+  color: transparent;
+    padding: 0.5em;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 1000px 100%;
+  background-clip: text;
+    -webkit-background-clip: text ;
+ -webkit-animation: Gradient 2s ease infinite;
+	-moz-animation: Gradient 2s ease infinite;
+	animation: Gradient 2s ease infinite;
+}
+
+.content{
+    width:80%;
+    margin:auto;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+ 
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	
+	.vl {
+	    border-style: none;
+	}
+    
+    .tile1 img{
+    height: 300px;   
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.vl {
+	    border-style: none;
+	}
+    .tile1 img{
+    height: 200px;   
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	
+	.vl {
+	    border-style: none;
+	}
+    .tile1 img{
+    height: 250px;   
+}
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	
+	#titleFont{
+		font-family: 'Cinzel Decorative', cursive;
+		color: #404040;
+		font-size: 1.5em;
+	}
+	.nameFont{
+		font-family: Georgia, serif;
+		color: #404040;
+		font-size: 4em;
+	}
+	.vl {
+	   border-style: none;
+	}
+     .tile1 img{
+    height: 250px;   
+}
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	
+	#titleFont{
+		font-family: 'Cinzel Decorative', cursive;
+		color: #404040;
+		font-size: 1.5em;
+	}
+	.nameFont{
+		font-family: Georgia, serif;
+		color: #404040;
+		font-size: 3.5em;
+	}
+	.vl {
+	    border-style: none;
+	}
+    
+     .tile1 img{
+    height: 250px;   
+}
+
+}
