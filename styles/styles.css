@@ -147,7 +147,9 @@ div.sticky{
   background-color: #323D49;
   opacity: 0.5;
 }
-
+.seq-img{
+    height: 600px;
+}
 .row{
   padding: 2em;
 }
@@ -183,6 +185,9 @@ div.sticky{
 .highlight{
   background-color: rgba(70, 165, 157, 0.2);
 
+}
+.about-content{
+  width:60%;
 }
 
 #end li {
