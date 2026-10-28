@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A healthcare product case study by Soundarya Muthuvel on bringing Webex Contact Center into the EHR, from market research to the Epic CTI connector and AI agent automation with Epic.">
+  <meta name="theme-color" content="#323D49">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="../styles/home.css?v=20261028-1">
+  <link rel="stylesheet" href="../styles/case-study.css?v=20260929-7">
+  <link rel="stylesheet" href="../styles/healthcare-case-study.css?v=20261028-1">
+
+  <title>Healthcare Contact Center | Soundarya Muthuvel</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="../index.html" aria-label="Soundarya Muthuvel, home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-name">Soundarya Muthuvel</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="../index.html#product-work">Product work</a>
+        <a href="../index.html#ai-agents">How I build</a>
+        <a href="../index.html#journey">Journey</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <a class="nav-cta" href="mailto:aryavel33@gmail.com">Let&rsquo;s connect</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="case-hero">
+      <div class="case-hero-glow" aria-hidden="true"></div>
+      <div class="shell case-hero-grid">
+        <div>
+          <a class="case-back" href="../index.html#product-work"><span aria-hidden="true">←</span> Product work</a>
+          <p class="eyebrow">Healthcare</p>
+          <h1>Bringing the contact center into the EHR, where care teams already work</h1>
+          <p class="case-lede">
+            At Cisco, I treated healthcare as its own product problem: clinicians, nurses and care teams
+            work from the electronic health record, not a CRM desktop. That insight shaped the Epic CTI
+            connector and AI agent automation with Epic.
+          </p>
+        </div>
+
+        <aside class="case-summary" aria-label="Case study overview">
+          <div><span>Company</span><strong>Cisco · Webex Contact Center</strong></div>
+          <div><span>My role</span><strong>Product Manager II, CX AI Integrations</strong></div>
+          <div><span>Focus</span><strong>Healthcare vertical · EHR integrations · AI agents</strong></div>
+          <div><span>Public launches</span><strong>Epic CTI connector · AI agent automation with Epic</strong></div>
+          <div><span>Showcased</span><strong>HIMSS 2026, Cisco AI Pavilion and Webex CX demo booth</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="case-intro">
+      <div class="shell case-intro-grid">
+        <p class="section-kicker">The insight</p>
+        <p class="case-opening">
+          In most industries, contact-center agents work in a CRM. In healthcare, the people serving
+          patients work in the EHR. A healthcare contact-center product has to meet them there.
+        </p>
+      </div>
+    </section>
+
+    <section class="case-section healthcare-research" id="market-research">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>01</span>
+          <p>Research</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>Patient experience was becoming a healthcare platform decision</h2>
+          <p>
+            My research connected a fast-growing healthcare contact-center market with a change in where
+            service work happens: inside clinical systems rather than a conventional agent desktop.
+          </p>
+
+          <div class="research-visuals">
+            <figure class="tam-figure" aria-labelledby="tam-title">
+              <figcaption>
+                <span>Market signal</span>
+                <strong id="tam-title">Healthcare CCaaS total addressable market</strong>
+              </figcaption>
+              <div class="tam-chart" role="img" aria-label="Published market forecast showing the global healthcare Contact Center as a Service market growing from 7.05 billion dollars in 2025 to 36.24 billion dollars by 2034, a compound annual growth rate of 20.34 percent">
+                <div class="tam-column tam-column-current">
+                  <span><b>$7.05B</b><small>2025</small></span>
+                  <i aria-hidden="true"></i>
+                </div>
+                <div class="tam-growth" aria-hidden="true"><i></i></div>
+                <div class="tam-column tam-column-future">
+                  <span><b>$36.24B</b><small>2034</small></span>
+                  <i aria-hidden="true"></i>
+                </div>
+              </div>
+              <p>
+                20.34% projected CAGR from 2025 to 2034. Source:
+                <a href="https://www.towardshealthcare.com/insights/healthcare-contact-center-as-a-service-market-sizing" target="_blank" rel="noopener noreferrer">Towards Healthcare Research &amp; Consulting, 2026</a>.
+              </p>
+            </figure>
+
+            <figure class="experience-shift" aria-labelledby="shift-title">
+              <figcaption>
+                <span>Experience shift</span>
+                <strong id="shift-title">From agent desktop to healthcare worker experience</strong>
+              </figcaption>
+              <div class="experience-shift-flow">
+                <div class="experience-model experience-model-before">
+                  <div class="worker-symbol worker-symbol-agent" aria-hidden="true"><i></i><i></i><i></i></div>
+                  <strong>Contact-center agent</strong>
+                  <span>Queue</span><span>Voice controls</span><span>CRM record</span>
+                </div>
+                <div class="shift-arrow" aria-hidden="true"><i></i><span>Mindshift</span></div>
+                <div class="experience-model experience-model-after">
+                  <div class="worker-symbol worker-symbol-care" aria-hidden="true"><i></i><i></i><i></i></div>
+                  <strong>Healthcare worker</strong>
+                  <span>Clinician or nurse</span><span>Patient context</span><span>Care workflow</span>
+                </div>
+              </div>
+              <p>The EHR becomes the working surface, not a secondary system to visit after the interaction.</p>
+            </figure>
+          </div>
+
+          <div class="ehr-decision" aria-label="Meeting healthcare workers inside their systems of record">
+            <div class="ehr-decision-heading">
+              <span>Platform approach</span>
+              <h3>Meet healthcare workers inside their systems of record</h3>
+              <p>Rather than asking care teams to switch tools, the contact center comes into the EHR they already use.</p>
+            </div>
+
+            <div class="ehr-map">
+              <div class="ehr-people">
+                <span>Clinicians</span><span>Nurses</span><span>Care teams</span>
+              </div>
+              <i class="ehr-connector" aria-hidden="true"></i>
+              <div class="ehr-platforms ehr-platforms-two" aria-label="EHR platforms in the connector portfolio">
+                <div><span>Enterprise health systems</span><strong>Epic</strong></div>
+                <div><span>Ambulatory care</span><strong>athenahealth</strong></div>
+              </div>
+              <i class="ehr-connector" aria-hidden="true"></i>
+              <div class="ehr-cx-layer">
+                <span>Contact center inside the EHR</span>
+                <strong>Agent controls</strong>
+                <strong>Patient context</strong>
+                <strong>AI agents</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="customer-problem">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>02</span>
+          <p>The experience problem</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>Care teams were switching between systems to serve one patient</h2>
+          <p>
+            Every call or message meant moving between the contact-center interface and the patient's
+            record, and routine requests still needed a person to complete them by hand.
+          </p>
+
+          <div class="care-frictions" aria-label="Three healthcare workflow problems">
+            <article>
+              <span aria-hidden="true">01</span>
+              <h3>Two working surfaces</h3>
+              <p>Voice controls and patient context lived in separate interfaces, adding navigation and context switching.</p>
+              <strong>Outcome: one working surface</strong>
+            </article>
+            <article>
+              <span aria-hidden="true">02</span>
+              <h3>Manual follow-through</h3>
+              <p>AI could understand a patient's request, but completing it meant acting in the EHR with the right permissions and human handoff.</p>
+              <strong>Outcome: AI agents that finish the task</strong>
+            </article>
+            <article>
+              <span aria-hidden="true">03</span>
+              <h3>Trust and governance</h3>
+              <p>Healthcare data demands security review, audit and clear boundaries for what automation may do.</p>
+              <strong>Outcome: governed automation</strong>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section case-section-tinted" id="what-launched">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>03</span>
+          <p>What launched</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>Two public launches brought the contact center into Epic</h2>
+
+          <div class="evidence-path" aria-label="Public healthcare launches">
+            <article>
+              <span class="evidence-status evidence-status-live">Launched</span>
+              <h3>Epic CTI connector</h3>
+              <p>Contact-center controls inside Epic: agent login and state, voice controls, transfer, conference, recording and click-to-dial.</p>
+            </article>
+            <i aria-hidden="true"></i>
+            <article>
+              <span class="evidence-status evidence-status-live">Launched</span>
+              <h3>AI agent automation with Epic</h3>
+              <p>AI agents that fulfil routine patient requests through Epic, with handoff to a person when needed.</p>
+            </article>
+            <i aria-hidden="true"></i>
+            <article>
+              <span class="evidence-status evidence-status-live">Showcased</span>
+              <h3>HIMSS 2026</h3>
+              <p>Demonstrated AI-powered customer experience for healthcare in the Cisco AI Pavilion and at the Webex CX demo booth.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="leadership">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>04</span>
+          <p>My product leadership</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>I made healthcare a deliberate part of the connector strategy</h2>
+          <p>
+            Healthcare grew inside the CRM connector portfolio I own. I made healthcare desktop connector
+            growth one of the pillars of the strategy I presented to Directors, VPs and the GM, which
+            executives then presented on stage at WebexOne 2026.
+          </p>
+
+          <div class="leadership-streams" aria-label="Product leadership responsibilities">
+            <article><span>Discover</span><h3>Define the vertical need</h3><p>Mapped healthcare personas, EHR workflows and the capabilities care teams need across the patient journey.</p></article>
+            <article><span>Prioritize</span><h3>Invest in healthcare</h3><p>Made healthcare connector growth a pillar of the portfolio strategy, alongside AI for desktop connectors.</p></article>
+            <article><span>Deliver</span><h3>Bring it to Epic</h3><p>Owned Epic and athenahealth within the connector portfolio, from requirements through security review and launch.</p></article>
+            <article><span>Showcase</span><h3>Tell the story</h3><p>Represented Webex Contact Center at HIMSS 2026, demonstrating AI-powered customer experience for healthcare.</p></article>
+          </div>
+
+          <p class="case-integrity-note">
+            This case study uses public and portfolio-safe information only. Unreleased product plans,
+            internal rationale, forecasts, pricing and customer-identifying details are intentionally omitted.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-next">
+      <div class="shell case-next-inner">
+        <p class="section-kicker">Continue exploring</p>
+        <h2>See how I simplified a fragmented CRM connector portfolio.</h2>
+        <div class="hero-actions">
+          <a class="button button-primary" href="crm-connectors.html">CRM connector case study</a>
+          <a class="button case-button-secondary" href="../index.html#product-work">Back to product work</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>&copy; 2026 Soundarya Muthuvel</p>
+      <p>Product strategy <span aria-hidden="true">·</span> Enterprise AI <span aria-hidden="true">·</span> Developer ecosystems</p>
+    </div>
+  </footer>
+</body>
+</html>

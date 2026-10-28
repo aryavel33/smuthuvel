@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A product strategy case study by Soundarya Muthuvel on simplifying CRM desktop connectors for Webex Contact Center.">
+  <meta name="theme-color" content="#323D49">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#46A59D">
+  <link rel="stylesheet" href="../styles/home.css?v=20260926-2">
+  <link rel="stylesheet" href="../styles/case-study.css?v=20260929-5">
+  <link rel="stylesheet" href="../styles/crm-case-study.css?v=20260929-2">
+
+  <title>CRM Desktop Connectors Strategy | Soundarya Muthuvel</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="../index.html" aria-label="Soundarya Muthuvel, home">
+        <span class="brand-mark" aria-hidden="true">SM</span>
+        <span class="brand-name">Soundarya Muthuvel</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="../index.html#product-work">Product work</a>
+        <a href="../index.html#ai-agents">How I build</a>
+        <a href="../index.html#journey">Journey</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <a class="nav-cta" href="mailto:aryavel33@gmail.com">Let&rsquo;s connect</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="case-hero crm-hero">
+      <div class="case-hero-glow" aria-hidden="true"></div>
+      <div class="shell case-hero-grid">
+        <div>
+          <a class="case-back" href="../index.html#product-work"><span aria-hidden="true">←</span> Product work</a>
+          <p class="eyebrow">CRM connector strategy</p>
+          <h1>One native contact-center experience across enterprise CRM platforms</h1>
+          <p class="case-lede">
+            At Cisco, I defined a strategy to simplify a fragmented connector portfolio
+            and create a clear path from legacy CTI integrations to native, AI-ready experiences.
+          </p>
+        </div>
+
+        <aside class="case-summary" aria-label="Case study overview">
+          <div><span>Company</span><strong>Cisco · Webex Contact Center</strong></div>
+          <div><span>My role</span><strong>Product Manager, CX AI Integrations</strong></div>
+          <div><span>Portfolio reset</span><strong>Strategy and investment decisions across 7 platforms in 4 months</strong></div>
+          <div><span>Ownership</span><strong>Roadmap · business case · product and offer launches</strong></div>
+          <div><span>Executive visibility</span><strong>Strategy presented to the GM and VPs, then on stage by executives at WebexOne 2026</strong></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="case-intro">
+      <div class="shell case-intro-grid">
+        <p class="section-kicker">The product</p>
+        <p class="case-opening">
+          CRM connectors bring Webex Contact Center into the systems where service teams
+          already work. They combine call control, customer context, routing, records,
+          and AI assistance inside the CRM desktop.
+        </p>
+      </div>
+    </section>
+
+    <section class="case-section" id="portfolio-problem">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>01</span>
+          <p>The portfolio problem</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>Years of integrations had created overlapping product generations</h2>
+          <p>
+            The portfolio included legacy desktop connectors, a newer connector generation,
+            and native platform integrations. Coverage and capabilities varied by CRM,
+            which made the customer path hard to explain.
+          </p>
+
+          <div class="connector-versions" aria-label="Three generations of the CRM connector experience">
+            <article class="connector-version connector-version-v1" id="connector-v1">
+              <header>
+                <span>V1</span>
+                <div>
+                  <h3>Webex Agent Desktop embedded in the CRM</h3>
+                  <p>Webex owned the complete agent interface. The CRM acted as the container.</p>
+                </div>
+              </header>
+
+              <div class="connector-visual" aria-label="A Webex Agent Desktop window embedded inside a generic CRM interface">
+                <div class="crm-window">
+                  <div class="crm-window-bar"><i></i><i></i><i></i><strong>Generic CRM</strong><small>Customer service workspace</small></div>
+                  <div class="crm-window-body">
+                    <nav aria-hidden="true"><b></b><b></b><b></b><b></b></nav>
+                    <div class="crm-record" aria-hidden="true">
+                      <span>Customer record</span>
+                      <strong>Alison Parker</strong>
+                      <i></i><i></i><i></i>
+                    </div>
+                    <div class="webex-surface webex-desktop">
+                      <div class="surface-label"><span>WEBEX</span><strong>Agent Desktop</strong></div>
+                      <div class="agent-status"><i></i><span>Available</span></div>
+                      <div class="incoming-call"><small>Incoming voice</small><strong>Alison Parker</strong><p>Account support</p></div>
+                      <div class="call-actions" aria-hidden="true"><i></i><i></i><i></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <footer><span>UI owner: Webex</span><span>CRM role: host container</span></footer>
+            </article>
+
+            <article class="connector-version connector-version-v2" id="connector-v2">
+              <header>
+                <span>V2</span>
+                <div>
+                  <h3>Standalone CTI built with APIs and widgets</h3>
+                  <p>Partners assembled a lighter call-control experience alongside the CRM workflow.</p>
+                </div>
+              </header>
+
+              <div class="connector-visual" aria-label="A standalone CTI panel constructed with Webex APIs and widgets inside a generic CRM interface">
+                <div class="crm-window">
+                  <div class="crm-window-bar"><i></i><i></i><i></i><strong>Generic CRM</strong><small>Service console</small></div>
+                  <div class="crm-window-body">
+                    <nav aria-hidden="true"><b></b><b></b><b></b><b></b></nav>
+                    <div class="crm-record crm-record-wide" aria-hidden="true">
+                      <span>Case 00482</span>
+                      <strong>Delivery issue</strong>
+                      <i></i><i></i><i></i><i></i>
+                    </div>
+                    <div class="webex-surface cti-panel">
+                      <div class="surface-label"><span>CTI</span><strong>Call controls</strong></div>
+                      <div class="caller-chip"><i></i><div><strong>Alison Parker</strong><small>00:42</small></div></div>
+                      <div class="call-actions" aria-hidden="true"><i></i><i></i><i></i></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="connector-stack" aria-label="The CTI is assembled from Webex APIs and desktop widgets and connects to the Webex Contact Center backend">
+                  <span>Webex APIs</span><span>Desktop widgets</span><i aria-hidden="true"></i><strong>Webex Contact Center backend</strong>
+                </div>
+              </div>
+
+              <footer><span>UI owner: Cisco or partner</span><span>Build model: composable</span></footer>
+            </article>
+
+            <article class="connector-version connector-version-v3" id="connector-v3">
+              <header>
+                <span>V3</span>
+                <div>
+                  <h3>BYO Contact Center as a Service with a CRM-native interface</h3>
+                  <p>The CRM provides the agent experience while Webex powers contact-center services behind it.</p>
+                </div>
+              </header>
+
+              <div class="connector-visual" aria-label="A CRM-owned agent interface connected through Bring Your Own Contact Center as a Service to the Webex backend">
+                <div class="crm-window crm-native-window">
+                  <div class="crm-window-bar"><i></i><i></i><i></i><strong>CRM-native service workspace</strong><small>Powered by Webex</small></div>
+                  <div class="crm-native-body">
+                    <div class="native-customer"><span>Customer</span><strong>Alison Parker</strong><small>Priority account · Voice</small></div>
+                    <div class="native-call-actions" aria-label="CRM-provided call controls"><span>Mute</span><span>Transfer</span><span>End</span></div>
+                    <div class="native-context"><span>Conversation context</span><p>Customer is calling about a delivery exception on order 00482.</p></div>
+                    <div class="native-timeline" aria-hidden="true"><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+                <div class="connector-stack connector-stack-native" aria-label="CRM native interface connects through Bring Your Own Contact Center as a Service to the Webex Contact Center backend">
+                  <span>CRM-owned UI</span><i aria-hidden="true"></i><span>BYO Contact Center as a Service</span><i aria-hidden="true"></i><strong>Webex backend</strong>
+                </div>
+              </div>
+
+              <footer><span>UI owner: CRM</span><span>Webex role: Contact Center as a Service backend</span></footer>
+            </article>
+          </div>
+
+          <div class="stakeholder-strip" aria-label="Who the strategy needed to serve">
+            <div><span>Agents</span><p>One reliable desktop with customer context and fewer workflow breaks.</p></div>
+            <div><span>Customers</span><p>A governed migration path that protects contact-center operations.</p></div>
+            <div><span>Cisco and partners</span><p>A portfolio that is easier to build, sell, support, and explain.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section case-section-tinted" id="strategy">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>02</span>
+          <p>Strategy and execution</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>I defined one destination, then organized the portfolio around adoption</h2>
+          <p>
+            Shipping another connector would not solve the portfolio problem. I focused the work
+            on three decisions that connected the product model, customer transition, and market adoption.
+          </p>
+
+          <ol class="strategy-moves">
+            <li>
+              <span>01</span>
+              <h3>Choose the destination</h3>
+              <p>Position the CRM-native generation as the target and align voice, digital, supervisor, and AI workflows around one product model.</p>
+              <strong>One native experience</strong>
+            </li>
+            <li>
+              <span>02</span>
+              <h3>Protect the transition</h3>
+              <p>Close critical parity gaps, preserve voice reliability, and migrate customers only when the target platform was ready.</p>
+              <strong>Continuity without dead ends</strong>
+            </li>
+            <li>
+              <span>03</span>
+              <h3>Win inside the CRM</h3>
+              <p>Pair CRM-specific customization and AI workflows with a simpler commercial model, enablement, and one go-to-market story.</p>
+              <strong>Adoption and deal leverage</strong>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="portfolio-decision">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>03</span>
+          <p>A consequential tradeoff</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>I reduced portfolio breadth while preserving customer extensibility</h2>
+          <p>
+            V1 supported packaged connectors for Salesforce, ServiceNow, Zendesk, Freshdesk,
+            and Microsoft Dynamics. Investing evenly across all five would have diluted the teams
+            needed to build the next generation.
+          </p>
+
+          <div class="decision-path" aria-label="Inputs, portfolio decision, and customer continuity plan">
+            <div><span>Inputs</span><strong>Adoption and demand</strong><p>Compared active users by connector with requests entering the customer pipeline.</p></div>
+            <div><span>Decision</span><strong>End-of-life 2 of 5</strong><p>Concentrated packaged V1 CTI investment on the connectors with the strongest evidence.</p></div>
+            <div><span>Continuity</span><strong>Keep the SDK path</strong><p>Maintained deployable desktop connectors through the Webex Developer Portal for custom third-party desktops.</p></div>
+          </div>
+
+          <p class="decision-tradeoff">
+            The tradeoff reduced packaged coverage, but focused development capacity while giving customers
+            and partners a supported way to build beyond the prioritized CRM platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section case-section-tinted" id="product-leadership">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>04</span>
+          <p>My product leadership</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>I owned the portfolio from investment choices through launch</h2>
+          <p>
+            In the first four months, I reset the roadmap across Salesforce, ServiceNow, Zendesk,
+            Microsoft Dynamics, Freshdesk, Epic, and athenahealth. I made the initial investment and
+            end-of-life decisions, then carried the portfolio through its business case, product launch,
+            and offer launch.
+          </p>
+
+          <dl class="leadership-ledger">
+            <div><dt>Investment allocation</dt><dd>Made the end-of-life and retention decisions that focused engineering capacity on the highest-value connectors.</dd></div>
+            <div><dt>V3 platform focus</dt><dd>Streamlined development around Salesforce and ServiceNow, where platform-specific architectures required dedicated investment.</dd></div>
+            <div><dt>Product differentiation</dt><dd>Introduced real-time translation, Model Context Protocol (MCP) and Agent-to-Agent (A2A) integration patterns, and quick-launch templates.</dd></div>
+            <div><dt>Developer extensibility</dt><dd>Preserved SDK and deployable connector options so customers could build for third-party CRM and non-CRM desktops.</dd></div>
+            <div><dt>Commercial ownership</dt><dd>Owned the roadmap, business case, product launch, and offer launch as one coordinated portfolio program.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section crm-success" id="measured-impact">
+      <div class="shell case-content-grid">
+        <aside class="case-section-label">
+          <span>05</span>
+          <p>Measured impact</p>
+        </aside>
+
+        <div class="case-copy">
+          <h2>The portfolio increased CRM adoption and supported enterprise growth</h2>
+          <p>
+            Multiple connector generations and customizable SDKs gave customers more ways to work
+            inside their CRM while meeting platform-specific requirements.
+          </p>
+
+          <div class="success-signals" aria-label="Measured outcomes for the CRM connector portfolio">
+            <div><span>CRM adoption</span><strong>30% → 41%</strong><p>Share of all agent logins occurring inside CRM platforms, measured over the last year.</p></div>
+            <div><span>Operational scale</span><strong>45M+</strong><p>Calls processed annually across all CRM connector versions.</p></div>
+            <div><span>Enterprise RFPs</span><strong>1,000+ agents</strong><p>CRM-specific customizations supported RFP wins for enterprise deployments of this scale.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-next">
+      <div class="shell case-next-inner">
+        <p class="section-kicker">Continue exploring</p>
+        <h2>See the platform strategy behind multi-provider conversational AI.</h2>
+        <div class="hero-actions">
+          <a class="button button-primary" href="conversational-ai-platform.html">Conversational AI case study</a>
+          <a class="button case-button-secondary" href="../index.html#product-work">Back to product work</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>&copy; 2026 Soundarya Muthuvel</p>
+      <p>Product strategy <span aria-hidden="true">·</span> Enterprise AI <span aria-hidden="true">·</span> Developer ecosystems</p>
+    </div>
+  </footer>
+</body>
+</html>
